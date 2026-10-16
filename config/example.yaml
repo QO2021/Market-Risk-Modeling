@@ -1,0 +1,12 @@
+holding_period_days: 1
+lookback_days: 500
+confidence_levels: [0.95, 0.99]
+es_levels: [0.975, 0.99]
+mc_scenarios: 10000
+pca_components: 3
+student_t_df: 5
+random_seed: 42
+rate_columns: [OIS_1Y, OIS_2Y, OIS_5Y, OIS_10Y, OIS_30Y]
+vol_columns: [VOL_1Y2Y, VOL_2Y2Y, VOL_5Y2Y, VOL_10Y2Y]
+spread_columns: [ISSUER_SPREAD]
+
